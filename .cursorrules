@@ -1,0 +1,11 @@
+# Project Rules
+
+## Stack
+- Frontend: React + Tailwind CSS
+- Package manager: npm
+- Language: JavaScript/TypeScript
+
+## Conventions
+- Commits: Conventional Commits format (feat, fix, docs, chore)
+- Components: functional, PascalCase filenames
+- Styling: Tailwind utilities, no inline styles
