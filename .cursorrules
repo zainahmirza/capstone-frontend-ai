@@ -9,3 +9,8 @@
 - Commits: Conventional Commits format (feat, fix, docs, chore)
 - Components: functional, PascalCase filenames
 - Styling: Tailwind utilities, no inline styles
+
+## Lessons from FE-03 (workflow drill)
+- Always list the exact fields/props required — never let the AI infer scope from a vague description.
+- Forms use react-hook-form + zod for validation, not manual useState + regex.
+- Any new component with logic (validation, state transitions) needs accompanying tests written and run before it's considered done.
